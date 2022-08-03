@@ -52,4 +52,40 @@ document.write(x)
 console.warn("something went wrong")
 console.clear()*/
 
-//
+//JavaScript with Google Chrome Console Part 2
+/*var x = 34
+console.time("test")
+document.write(x);
+console.error("Something went wrong!")
+console.warn("This is just a warning!")
+console.timeEnd("test")*/
+
+//JavaScript Comparison Operators Tutorial
+/*var x = 10
+var y = 10
+//console.log(x === y)
+//console.log(6 !== "6")
+//console.log(30 >=9)
+console.log(9 <= 9)*/
+
+//Javascript If Statement Tutorial
+/*var a = 3
+var b = "3"
+if(a===b){
+    console.log("Hello World");
+}*/
+
+//JavaScript Logical Operators Tutorial
+/*var age = 20;
+console.log(!(age >= 145));*/
+
+//JavaScript if ELse Statement Tutorial
+/*var Name = "Usen-ita";
+var gender = "Female";
+if(gender == "Male"){
+    console.log("Hello mr. " + Name + ". We serve spirits, beer, and martinis. Which drink would you like? ;)");
+}else{
+    console.log("Hello miss. Would you like a complimentary drink?");
+}*/
+
+//JavaScript If Else If Statement Tutorial
