@@ -89,3 +89,148 @@ if(gender == "Male"){
 }*/
 
 //JavaScript If Else If Statement Tutorial
+/*var per = 1002
+if(per >= 80 && per <= 100){
+        document.write("you are in merit");
+}else if(per >= 60 && per < 80){
+    document.write("you are in Ist Division");
+}else if(per >= 45 && per < 60){
+    document.write("you are in IInd Division");
+}else if(per >= 33 && per < 45){
+    document.write("you are in IIIrd Division");
+}else if(per < 33){
+    document.write("you are Fail")
+}else{
+    document.write("Please enter a valid Percentage")
+}*/
+
+//JavaScript Conditional Ternary Operational Tutorial
+/*var a = 35
+var b;
+//(a == 25)? b="True": b="False";
+b = (a == 25)? "True": "False";
+console.log("Value is " + b);*/
+
+//JavaScript Switch Case Tutorial
+/*var age = 77
+switch (true) {
+    case ( age >= 18 && age <= 25):
+        document.write("You are Eligible")
+        break;
+
+    case (age >= 26 && age <=60): 
+    document.write("You are not Eligible")
+        break;
+    default:
+        document.write("Please enter the valid age.")
+}*/
+
+//JavaScript Alert BOx Tutorial
+/*var a = 15
+var b = 20
+if(a>b){
+    alert("A is greater")
+}else{
+    alert("Value of B is : " + b )
+    alert(a+b)
+}*/
+
+//JavaScript Confirm Box Tutorial
+/*var x = confirm("Do you like js?")
+if(x){
+    alert("Welcome")
+}else{
+    alert("Go ahead")
+}*/
+
+//JavaScript Prompt Box Tutorial
+/*var per = prompt("enter your percentage :")
+if(per >= 80 && per <= 100){
+        document.write("you are in merit");
+}else if(per >= 60 && per < 80){
+    document.write("you are in Ist Division");
+}else if(per >= 45 && per < 60){
+    document.write("you are in IInd Division");
+}else if(per >= 33 && per < 45){
+    document.write("you are in IIIrd Division");
+}else if(per < 33){
+    document.write("you are Fail")
+}else{
+    document.write("Please enter a valid Percentage")
+}*/
+
+//JavaScript Functions Tutorial
+/*function hello(){
+    document.write("Hello and welcome. ")
+}
+function $name(){
+    document.write("My name is Usen, BITCH. ")
+}
+hello()
+document.write("<br>")
+hello()
+document.write("<br>")
+$name()*/
+
+//JavaScript Functions with Parameters Tutorial
+/*function Hello(fName="Name", lName="Surname"){
+    document.write("Hello " + fName + " " + lName + "<br>");
+} 
+
+function sum(a,b){
+    document.write(a+b);
+}
+Hello("Will", "Smith")
+Hello("General", "Marshmallow")
+
+var x=23;
+var y=30;
+sum(x,y)*/
+
+//JavaScript Functions with Return Value Tutorial
+/*function Sum(math,sc,lng){
+    var a = math + sc +lng;
+    return a; 
+} 
+function percentage(t){
+    var per = t/300 * 100
+    document.write(per)
+}
+
+var total= Sum(58,56,75)
+percentage(total)*/
+
+//JavaScript Global & Local Variable Tutorial
+/*var a = 44
+function age(){
+    var a = 34
+    document.write(a + "<br>")
+}
+age()
+document.write(a)*/
+
+//JavaScript Basic Events
+/*function hello(){
+    alert("Hello Everyone")
+}*/
+
+//JavaScript While Loop Tutorial
+ /*var a = 10
+ document.write("<ul>")
+ while (a>= -4) {
+    document.write("<li>" + a + "Hello world </li>")
+    a--
+ }
+ document.write("</ul>")*/
+
+ //JavaScript Do While Loop Tutorial
+ /*var a = 1
+ do {
+    document.write("Hello World <br>")
+    a++
+ } while (a<=10);*/
+
+ //JavaScript For Loop Tutorial
+ for( var a = 1; a<=10; a++){
+    document.write("hello world <br> ")
+ }
